@@ -3,12 +3,12 @@ This is the Image Encryption and Decryption based on HC-128 algorithm, one of th
 # How to use:
 ## Encryption
 To use Encryption, put the Key and IV as Hex text in encrypt.py to initialize the algorithm:<br>
-```
+```python
 key = "0F62B5085BAE0154A7FA4DA0F34699DC322AEF"
 IV  = "288FF65DC42B92F960C72E95FC63CA3116D2FC"
 ```
 Make sure that the image path and the result path is in the right place:<br>
-```
+```python
 file_name = "E:\Bai Tap\An toan thong tin\python-hc128-master\python-hc128-master\lmao.jpg"
 with open ("result.txt", "wb") as f:
   f.write(cipher_text)
@@ -16,12 +16,12 @@ with open ("result.txt", "wb") as f:
 After that, run the program and the result will be show up in the result.txt file<br>
 ## Decryption
 Same with Encryption, put the Key and IV as Hex text in decrypt.py to initialize the algorithm:<br>
-```
+```python
 key = "0F62B5085BAE0154A7FA4DA0F34699DC322AEF"
 IV  = "288FF65DC42B92F960C72E95FC63CA3116D2FC"
 ```
 Make sure that the text path and the result path is in the right place:<br>
-```
+```python
 file_name = "result.txt"
 with open ("result_decrypt.jpg", "wb") as f:
   f.write(plain_text)
