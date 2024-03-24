@@ -27,7 +27,7 @@ with open ("result_decrypt.jpg", "wb") as f:
   f.write(plain_text)
 ```
 After that, run the program and the result will be show up in the result_decrypt.jpg file<br>
-#The result:
+# The result:
 This is the image we test:
 ![lmao](https://github.com/buihuy1203/HC128-Image_Encryption/assets/85066488/86521296-1f19-45ea-9aa8-2d93e77d8fdb)
 <br>
@@ -36,6 +36,6 @@ The result.txt is shown up like this:
 It can't be converted back to JPG file because the header was corrupted.<br>
 But if we put back the text file, put back the Key and IV, it will show again the picture that we encrypt into another picture
 ![result_decrypt](https://github.com/buihuy1203/HC128-Image_Encryption/assets/85066488/8febc7d5-2d02-4001-bfdc-e9155ba5cc35)
-#The time execution
+# The time execution
 The algorithm takes about 713.19ms to encrypt a 512KB picture, that's such a long time compared to RC4:
 ![image](https://github.com/buihuy1203/HC128-Image_Encryption/assets/85066488/9794f986-83dd-4227-9b39-04a94c0f1d4e)
