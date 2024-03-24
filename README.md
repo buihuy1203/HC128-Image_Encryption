@@ -2,7 +2,7 @@
 This is the Image Encryption and Decryption based on HC-128 algorithm, one of the seven eStreams.
 # How to use:
 ## Encryption
-To use Encryption, put the Key and IV as Hex text to initialize the algorithm:<br>
+To use Encryption, put the Key and IV as Hex text in encrypt.py to initialize the algorithm:<br>
 ```
 key = "0F62B5085BAE0154A7FA4DA0F34699DC322AEF"
 IV  = "288FF65DC42B92F960C72E95FC63CA3116D2FC"
@@ -15,7 +15,7 @@ with open ("result.txt", "wb") as f:
 ```
 After that, run the program and the result will be show up in the result.txt file<br>
 ## Decryption
-Same with Encryption, put the Key and IV as Hex text to initialize the algorithm:<br>
+Same with Encryption, put the Key and IV as Hex text in decrypt.py to initialize the algorithm:<br>
 ```
 key = "0F62B5085BAE0154A7FA4DA0F34699DC322AEF"
 IV  = "288FF65DC42B92F960C72E95FC63CA3116D2FC"
